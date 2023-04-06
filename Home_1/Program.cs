@@ -6,7 +6,7 @@
 // 23432 -> да
 
 Console.WriteLine("Vvedite pyateznachnoe cheslo: ");
-int numA = Convert.ToInt32(Console.ReadLiane());
+int numA = int.Parse(Console.ReadLiane());
 
 int i = 0;
 for (; i <= numA; i = numA / 10 % 10)
